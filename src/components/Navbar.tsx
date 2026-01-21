@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Moon, Sun, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import tgibLogo from "@/assets/tgib-logo.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -17,17 +18,8 @@ const Navbar = () => {
     <nav className="bg-primary py-4 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8">
-            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M20 5L35 15V30L20 40L5 30V15L20 5Z" stroke="white" strokeWidth="2" fill="none"/>
-              <path d="M20 12L28 17V27L20 32L12 27V17L20 12Z" stroke="white" strokeWidth="1.5" fill="none"/>
-            </svg>
-          </div>
-          <div className="text-primary-foreground">
-            <span className="text-xs block leading-tight">TEEN GIRLS IN</span>
-            <span className="text-sm font-bold leading-tight">BLOCKCHAIN</span>
-          </div>
+        <Link to="/" className="flex items-center">
+          <img src={tgibLogo} alt="Teen Girls In Blockchain" className="h-10 w-auto" />
         </Link>
 
         {/* Navigation Links */}
