@@ -5,7 +5,7 @@ const socialLinks = [
   { icon: Facebook, href: "https://facebook.com" },
   { icon: MessageCircle, href: "https://whatsapp.com" },
   { icon: Linkedin, href: "https://linkedin.com" },
-  { icon: Twitter, href: "https://twitter.com" }
+  { icon: Twitter, href: "https://x.com/GirlsBlockchain?s=20" }
 ];
 
 const CommunitySection = () => {
