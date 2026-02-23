@@ -1,11 +1,9 @@
-import { Send, Facebook, MessageCircle, Linkedin, Twitter } from "lucide-react";
+import { Linkedin, Twitter, Instagram } from "lucide-react";
 
 const socialLinks = [
-  { icon: Send, href: "https://telegram.org" },
-  { icon: Facebook, href: "https://facebook.com" },
-  { icon: MessageCircle, href: "https://whatsapp.com" },
-  { icon: Linkedin, href: "https://linkedin.com" },
-  { icon: Twitter, href: "https://x.com/GirlsBlockchain?s=20" }
+  { icon: Linkedin, href: "https://www.linkedin.com/company/teen-girls-in-blockchain-tgib/" },
+  { icon: Twitter, href: "https://x.com/GirlsBlockchain?s=20" },
+  { icon: Instagram, href: "https://www.instagram.com/t.g.i.b._" }
 ];
 
 const CommunitySection = () => {
