@@ -48,18 +48,28 @@ const Footer = () => {
           <h3 className="text-primary-foreground font-semibold mb-4">Community</h3>
           <ul className="space-y-2">
             <li>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+              <a href="https://www.linkedin.com/company/teen-girls-in-blockchain-tgib/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
-                Facebook
+              <a href="https://x.com/GirlsBlockchain?s=20" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+                Twitter/X
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+              <a href="https://x.com/GirlsBlockchain?s=20" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
                 Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/t.g.i.b._" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com/@girlsblockchain" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+                YouTube
               </a>
             </li>
           </ul>

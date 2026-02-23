@@ -5,12 +5,28 @@ import tgibLogo from "@/assets/tgib-logo.jpg";
 
 const Navbar = () => {
   const location = useLocation();
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(() => {
+    // Initialize from document class
+    if (typeof document !== 'undefined') {
+      return document.documentElement.classList.contains('dark');
+    }
+    return true;
+  });
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  // Set dark mode on mount
+  useState(() => {
+    document.documentElement.classList.add('dark');
+  });
+
   const toggleTheme = () => {
-    setIsDark(!isDark);
-    document.documentElement.classList.toggle("dark");
+    const newDark = !isDark;
+    setIsDark(newDark);
+    if (newDark) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   };
 
   const isActive = (path: string) => location.pathname === path;

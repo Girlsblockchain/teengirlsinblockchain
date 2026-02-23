@@ -1,9 +1,10 @@
-import { Linkedin, Twitter, Instagram } from "lucide-react";
+import { Linkedin, Twitter, Instagram, Youtube } from "lucide-react";
 
 const socialLinks = [
   { icon: Linkedin, href: "https://www.linkedin.com/company/teen-girls-in-blockchain-tgib/" },
   { icon: Twitter, href: "https://x.com/GirlsBlockchain?s=20" },
-  { icon: Instagram, href: "https://www.instagram.com/t.g.i.b._" }
+  { icon: Instagram, href: "https://www.instagram.com/t.g.i.b._" },
+  { icon: Youtube, href: "https://youtube.com/@girlsblockchain" }
 ];
 
 const CommunitySection = () => {
