@@ -54,12 +54,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="https://x.com/GirlsBlockchain?s=20" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
-                Twitter/X
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/GirlsBlockchain?s=20" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
-                Twitter
+                X
               </a>
             </li>
             <li>
