@@ -24,12 +24,17 @@ const HeroSection = () => {
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-md">
               Join now
             </Button>
-            <button className="flex items-center gap-2 text-foreground hover:text-primary transition-colors">
+            <a
+              href="https://youtube.com/@girlsblockchain"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
+            >
               <span className="w-10 h-10 rounded-full border-2 border-foreground flex items-center justify-center">
                 <Play size={16} fill="currentColor" />
               </span>
-              Learn more
-            </button>
+              Watch & Learn
+            </a>
           </div>
 
           {/* Community members */}
