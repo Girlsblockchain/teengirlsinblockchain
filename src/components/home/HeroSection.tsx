@@ -1,5 +1,6 @@
 import { Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
   return (
@@ -56,8 +57,8 @@ const HeroSection = () => {
           
           <div className="relative rounded-2xl overflow-hidden bg-muted aspect-[4/5] max-w-md mx-auto shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop" 
-              alt="Young professional woman"
+              src={heroImage} 
+              alt="Teen Girls In Blockchain"
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 h-2 bg-primary" />
