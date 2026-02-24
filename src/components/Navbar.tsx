@@ -35,6 +35,8 @@ const Navbar = () => {
     { to: "/", label: "HOME" },
     { to: "/team", label: "TEAM" },
     { to: "/gallery", label: "GALLERY" },
+    { to: "/blog", label: "BLOG" },
+    { to: "/partners", label: "PARTNERS" },
     { to: "/contact", label: "CONTACT US" },
   ];
 

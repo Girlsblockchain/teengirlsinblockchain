@@ -18,6 +18,16 @@ const Footer = () => {
                 What we offer
               </Link>
             </li>
+            <li>
+              <Link to="/blog" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link to="/partners" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+                Partners with us
+              </Link>
+            </li>
           </ul>
         </div>
 
