@@ -32,7 +32,7 @@ const FeaturesSection = () => {
             It's about learning how to communicate effectively and collaborate with others, building resilience and 
             grit necessary to overcome obstacles and achieve our goals. Education is also about learning how to be 
             responsible and engaged citizen.{" "}
-            <span className="text-primary cursor-pointer hover:underline">Continue reading</span>
+            
           </p>
         </div>
 

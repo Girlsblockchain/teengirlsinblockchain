@@ -21,9 +21,11 @@ const HeroSection = () => {
           </p>
           
           <div className="flex items-center gap-4 mb-8">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-md">
-              Join now
-            </Button>
+            <a href="https://x.com/GirlsBlockchain" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-md">
+                Join now
+              </Button>
+            </a>
             <a
               href="https://youtube.com/@girlsblockchain"
               target="_blank"

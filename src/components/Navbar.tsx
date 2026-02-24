@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Moon, Sun, ChevronDown, Menu, X } from "lucide-react";
+import { Moon, Sun, Menu, X } from "lucide-react";
 import { useState } from "react";
 import tgibLogo from "@/assets/tgib-logo.jpg";
 
@@ -34,6 +34,7 @@ const Navbar = () => {
   const navLinks = [
     { to: "/", label: "HOME" },
     { to: "/team", label: "TEAM" },
+    { to: "/gallery", label: "GALLERY" },
     { to: "/contact", label: "CONTACT US" },
   ];
 
@@ -56,11 +57,6 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
-          <div className="relative group">
-            <button className="flex items-center gap-1 text-primary-foreground hover:opacity-80 transition-opacity">
-              LEARN <ChevronDown size={16} />
-            </button>
-          </div>
         </div>
 
         <div className="flex items-center gap-3">
@@ -99,9 +95,6 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <button className="flex items-center gap-1 text-primary-foreground hover:opacity-80 transition-opacity text-lg">
-              LEARN <ChevronDown size={16} />
-            </button>
           </div>
         </div>
       )}
