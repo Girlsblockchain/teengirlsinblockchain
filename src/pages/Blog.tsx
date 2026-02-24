@@ -15,8 +15,16 @@ const Blog = () => {
               Insights, updates, and stories from the Teen Girls In Blockchain community.
             </p>
           </div>
-          <div className="text-center text-muted-foreground py-20">
-            <p className="text-lg">Coming soon — stay tuned for articles and updates!</p>
+          <div className="text-center py-20">
+            <a
+              href="https://medium.com/@teengirlsinblockchain"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-opacity"
+            >
+              Read our Blog on Medium
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
           </div>
         </div>
       </main>
