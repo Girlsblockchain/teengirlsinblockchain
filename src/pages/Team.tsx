@@ -55,7 +55,7 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <div className="min-h-screen bg-background dark">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <main className="py-16 px-6 md:px-12 lg:px-20">
         <div className="max-w-7xl mx-auto">
