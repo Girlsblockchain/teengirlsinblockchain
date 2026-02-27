@@ -11,13 +11,16 @@ const Partners = () => {
         <section className="py-16 md:py-24 px-6 md:px-12 lg:px-20">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Your mission meets our impact; become a strategic collaborator.
+              Partner with Teen Girls in Blockchain (TGIB)
             </h1>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6 max-w-3xl mx-auto">
-              Partnering with Teen Girls In Blockchain (TGIB) is an active commitment to closing the gender gap in blockchain technology. You gain direct visibility and brand alignment by supporting our programs, placing your organization at the heart of the Web3 inclusion movement.
+              Partner with Teen Girls in Blockchain (TGIB) and take an active role in closing the gender gap in Web3. Align your brand with the future of inclusive blockchain innovation while gaining direct visibility within our growing community.
+            </p>
+            <p className="text-muted-foreground text-lg leading-relaxed mb-6 max-w-3xl mx-auto">
+              From co-developing curriculum and mentorship programs to funding targeted initiatives, your organization can help drive economic empowerment and build a more diverse, equitable ecosystem.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-10 max-w-3xl mx-auto">
-              We offer collaboration opportunities; from co-developing curriculum and mentorship to funding specific initiatives, that demonstrate your organization's commitment to economic empowerment and a diverse digital future. Let's work together to build a stronger, more equitable decentralized finance ecosystem.
+              Let's shape the future of Web3 together.
             </p>
             <a href="mailto:teengirlsinblockchain@gmail.com">
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-full text-lg">
