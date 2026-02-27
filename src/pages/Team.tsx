@@ -2,6 +2,8 @@ import { Linkedin, Instagram } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ekeneImage from "@/assets/ekene-ezeala.jpg";
+import jewelImage from "@/assets/jewel-iruobe.jpg";
+import chikezirimImage from "@/assets/chikezirim-ugwu.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -9,7 +11,16 @@ const XIcon = ({ size = 20 }: { size?: number }) => (
   </svg>
 );
 
-const teamMembers = [
+interface TeamMember {
+  name: string;
+  role: string;
+  image: string;
+  linkedin?: string;
+  instagram?: string;
+  x?: string;
+}
+
+const teamMembers: TeamMember[] = [
   {
     name: "Ekenekamchukwu Ezeala",
     role: "Founder",
@@ -27,36 +38,18 @@ const teamMembers = [
     x: "https://x.com"
   },
   {
-    name: "Favour Samson",
-    role: "Project manager",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    x: "https://x.com"
+    name: "Iruobe Jewel",
+    role: "Osun State Lead",
+    image: jewelImage,
+    instagram: "https://www.instagram.com/jewel.x.x?igsh=aHQyNGp5cmhjZGI1&utm_source=qr",
+    x: "https://x.com/_justjewel?s=21"
   },
   {
-    name: "Anna Velvet",
-    role: "Project Advisor",
-    image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200&h=200&fit=crop",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    x: "https://x.com"
-  },
-  {
-    name: "Ekenekamchukwu Ezeala",
-    role: "Founder",
-    image: ekeneImage,
-    linkedin: "https://www.linkedin.com/in/ekenekamchukwu-ezeala-6710b9274",
-    instagram: "https://www.instagram.com/keneezeala",
-    x: "https://x.com/keneezeala"
-  },
-  {
-    name: "Boluwatife Adeniyi",
-    role: "Co-Founder",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    x: "https://x.com"
+    name: "Ugwu Samuel Chikezirim",
+    role: "Legal Lead",
+    image: chikezirimImage,
+    linkedin: "https://www.linkedin.com/in/ugwu-chikezirim-216a0316a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    x: "https://x.com/Chikezirim22885"
   },
   {
     name: "Favour Samson",
@@ -108,15 +101,21 @@ const Team = () => {
                 <h3 className="font-semibold text-foreground mb-1">{member.name}</h3>
                 <p className="text-sm text-muted-foreground mb-4">{member.role}</p>
                 <div className="flex items-center justify-center gap-3">
-                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
-                    <Linkedin size={20} />
-                  </a>
-                  <a href={member.x} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
-                    <XIcon size={20} />
-                  </a>
-                  <a href={member.instagram} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
-                    <Instagram size={20} />
-                  </a>
+                  {member.linkedin && (
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+                      <Linkedin size={20} />
+                    </a>
+                  )}
+                  {member.x && (
+                    <a href={member.x} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+                      <XIcon size={20} />
+                    </a>
+                  )}
+                  {member.instagram && (
+                    <a href={member.instagram} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">
+                      <Instagram size={20} />
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
