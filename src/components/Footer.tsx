@@ -19,9 +19,9 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to="/blog" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
+              <a href="https://medium.com/@teengirlsinblockchain" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
                 Blog
-              </Link>
+              </a>
             </li>
             <li>
               <Link to="/partners" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">

@@ -35,10 +35,11 @@ const Navbar = () => {
     { to: "/", label: "HOME" },
     { to: "/team", label: "TEAM" },
     { to: "/gallery", label: "GALLERY" },
-    { to: "/blog", label: "BLOG" },
     { to: "/partners", label: "PARTNERS" },
     { to: "/contact", label: "CONTACT US" },
   ];
+
+  const blogUrl = "https://medium.com/@teengirlsinblockchain";
 
   return (
     <nav className="bg-primary py-4 px-6 md:px-12 lg:px-20 relative">
@@ -59,6 +60,9 @@ const Navbar = () => {
               {link.label}
             </Link>
           ))}
+          <a href={blogUrl} target="_blank" rel="noopener noreferrer" className="text-primary-foreground hover:opacity-80 transition-opacity">
+            BLOG
+          </a>
         </div>
 
         <div className="flex items-center gap-3">
@@ -97,6 +101,9 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            <a href={blogUrl} target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="text-primary-foreground hover:opacity-80 transition-opacity text-lg">
+              BLOG
+            </a>
           </div>
         </div>
       )}
