@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import ekeneImage from "@/assets/ekene-ezeala.jpg";
 import jewelImage from "@/assets/jewel-iruobe.jpg";
 import chikezirimImage from "@/assets/chikezirim-ugwu.jpg";
+import dearieImage from "@/assets/dearie-eburu.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -46,10 +47,16 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Ugwu Samuel Chikezirim",
-    role: "Legal Lead",
+    role: "Legal Advisor",
     image: chikezirimImage,
     linkedin: "https://www.linkedin.com/in/ugwu-chikezirim-216a0316a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     x: "https://x.com/Chikezirim22885"
+  },
+  {
+    name: "Eburu Oghenenyerhovwo Dearie",
+    role: "Developer Lead",
+    image: dearieImage,
+    linkedin: "https://www.linkedin.com/in/dearie-eburu-998a0b391?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
   {
     name: "Favour Samson",

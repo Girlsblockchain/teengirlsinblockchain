@@ -25,7 +25,7 @@ const Footer = () => {
             </li>
             <li>
               <Link to="/partners" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm">
-                Partners with us
+                Partner with us
               </Link>
             </li>
           </ul>
