@@ -4,9 +4,8 @@ import { useState } from "react";
 import { X, Play } from "lucide-react";
 
 const galleryItems: { type: "image" | "video"; src: string; alt: string }[] = [
-  // Add items here like:
-  // { type: "image", src: "/images/event1.jpg", alt: "Community event" },
-  // { type: "video", src: "/videos/workshop.mp4", alt: "Workshop recording" },
+  { type: "image", src: "/images/gallery-1.jpg", alt: "TGIB community workshop event" },
+  { type: "image", src: "/images/gallery-2.jpg", alt: "TGIB blockchain education session" },
 ];
 
 const Gallery = () => {

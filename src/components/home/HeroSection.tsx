@@ -46,7 +46,7 @@ const HeroSection = () => {
               <div className="w-10 h-10 rounded-full bg-primary/40 border-2 border-background" />
               <div className="w-10 h-10 rounded-full bg-primary/50 border-2 border-background" />
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground text-xs border-2 border-background">
-                +12k
+                +2k
               </div>
             </div>
             <span className="text-sm text-muted-foreground">Community members</span>
