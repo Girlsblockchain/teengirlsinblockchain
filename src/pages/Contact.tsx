@@ -24,7 +24,6 @@ const Contact = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
-    // Clear error when user starts typing
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: "" }));
     }
@@ -58,63 +57,72 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <main className="py-16 px-6 md:px-12 lg:px-20">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-12">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+      <main>
+        {/* Hero Section */}
+        <section className="relative py-20 md:py-32 px-6 md:px-12 lg:px-20 overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/10" />
+          <div className="max-w-4xl mx-auto text-center relative z-10">
+            <span className="inline-block text-primary font-semibold text-sm tracking-widest uppercase mb-4">
+              Reach Out
+            </span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight">
               Get in Touch
             </h1>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
               We're always looking forward to new students, partners, mentors for collaborations etc.
               Please feel free and reach out to us so we can work on something together.
             </p>
           </div>
+        </section>
 
-          {/* Contact Form */}
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <Input
-                  name="name"
-                  placeholder="Name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  className="bg-input border-0 h-14 rounded-lg"
-                />
-                {errors.name && <p className="text-destructive text-sm mt-1">{errors.name}</p>}
+        {/* Contact Form */}
+        <section className="py-20 px-6 md:px-12 lg:px-20 bg-muted/50">
+          <div className="max-w-3xl mx-auto">
+            <form onSubmit={handleSubmit} className="space-y-6 bg-card p-8 md:p-12 rounded-2xl border border-border shadow-sm">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <Input
+                    name="name"
+                    placeholder="Name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="bg-input border-0 h-14 rounded-lg"
+                  />
+                  {errors.name && <p className="text-destructive text-sm mt-1">{errors.name}</p>}
+                </div>
+                <div>
+                  <Input
+                    name="email"
+                    type="email"
+                    placeholder="Email Address"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="bg-input border-0 h-14 rounded-lg"
+                  />
+                  {errors.email && <p className="text-destructive text-sm mt-1">{errors.email}</p>}
+                </div>
               </div>
               <div>
-                <Input
-                  name="email"
-                  type="email"
-                  placeholder="Email Address"
-                  value={formData.email}
+                <Textarea
+                  name="message"
+                  placeholder="Leave your message here !"
+                  value={formData.message}
                   onChange={handleChange}
-                  className="bg-input border-0 h-14 rounded-lg"
+                  className="bg-input border-0 min-h-[200px] rounded-lg resize-none"
                 />
-                {errors.email && <p className="text-destructive text-sm mt-1">{errors.email}</p>}
+                {errors.message && <p className="text-destructive text-sm mt-1">{errors.message}</p>}
               </div>
-            </div>
-            <div>
-              <Textarea
-                name="message"
-                placeholder="Leave your message here !"
-                value={formData.message}
-                onChange={handleChange}
-                className="bg-input border-0 min-h-[200px] rounded-lg resize-none"
-              />
-              {errors.message && <p className="text-destructive text-sm mt-1">{errors.message}</p>}
-            </div>
-            <div className="text-center">
-              <Button 
-                type="submit" 
-                className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-3 rounded-lg"
-              >
-                Submit
-              </Button>
-            </div>
-          </form>
-        </div>
+              <div className="text-center">
+                <Button
+                  type="submit"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground px-12 py-6 rounded-full text-lg shadow-lg hover:shadow-xl transition-all"
+                >
+                  Submit
+                </Button>
+              </div>
+            </form>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
