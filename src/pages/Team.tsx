@@ -5,6 +5,8 @@ import ekeneImage from "@/assets/ekene-ezeala.jpg";
 import jewelImage from "@/assets/jewel-iruobe.jpg";
 import chikezirimImage from "@/assets/chikezirim-ugwu.jpg";
 import dearieImage from "@/assets/dearie-eburu.jpg";
+import ameliaImage from "@/assets/amelia-james.jpg";
+import sharonImage from "@/assets/sharon-okorie.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -57,6 +59,17 @@ const teamMembers: TeamMember[] = [
     role: "Developer Lead",
     image: dearieImage,
     linkedin: "https://www.linkedin.com/in/dearie-eburu-998a0b391?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    name: "Amelia Iniobong James",
+    role: "Akwa-Ibom State Lead",
+    image: ameliaImage,
+    linkedin: "https://www.linkedin.com/in/amelia-james-830572177"
+  },
+  {
+    name: "Sharon Mmesomachi Okorie",
+    role: "Akwa-Ibom State Lead",
+    image: sharonImage,
   },
   {
     name: "Favour Samson",
