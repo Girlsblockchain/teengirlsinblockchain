@@ -51,8 +51,14 @@ const galleryFolders: GalleryFolder[] = [
   {
     name: "Akwa Ibom State",
     location: "Nigeria",
-    coverImage: "",
-    items: [],
+    coverImage: "/images/akwaibom-3.jpg",
+    items: [
+      { type: "image", src: "/images/akwaibom-1.jpg", alt: "TGIB Akwa Ibom school workshop" },
+      { type: "image", src: "/images/akwaibom-2.jpg", alt: "TGIB Akwa Ibom students learning" },
+      { type: "image", src: "/images/akwaibom-3.jpg", alt: "TGIB Akwa Ibom school tour group photo" },
+      { type: "image", src: "/images/akwaibom-4.jpg", alt: "TGIB Akwa Ibom partnership event" },
+      { type: "image", src: "/images/akwaibom-5.jpg", alt: "TGIB Akwa Ibom community gathering" },
+    ],
   },
   {
     name: "Niger State",
