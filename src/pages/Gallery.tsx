@@ -45,8 +45,13 @@ const galleryFolders: GalleryFolder[] = [
   {
     name: "Kaduna State",
     location: "Nigeria",
-    coverImage: "",
-    items: [],
+    coverImage: "/images/kaduna-1.jpg",
+    items: [
+      { type: "image", src: "/images/kaduna-1.jpg", alt: "TGIB Kaduna State workshop" },
+      { type: "image", src: "/images/kaduna-2.jpg", alt: "TGIB Kaduna State education session" },
+      { type: "image", src: "/images/kaduna-3.jpg", alt: "TGIB Kaduna State community event" },
+      { type: "image", src: "/images/kaduna-4.jpg", alt: "TGIB Kaduna State group photo" },
+    ],
   },
   {
     name: "Akwa Ibom State",

@@ -33,14 +33,6 @@ const teamMembers: TeamMember[] = [
     x: "https://x.com/keneezeala"
   },
   {
-    name: "Boluwatife Adeniyi",
-    role: "Co-Founder",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    x: "https://x.com"
-  },
-  {
     name: "Iruobe Jewel",
     role: "Osun State Lead",
     image: jewelImage,
@@ -80,14 +72,6 @@ const teamMembers: TeamMember[] = [
     instagram: "https://instagram.com",
     x: "https://x.com"
   },
-  {
-    name: "Anna Velvet",
-    role: "Project Advisor",
-    image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=200&h=200&fit=crop",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    x: "https://x.com"
-  }
 ];
 
 const Team = () => {
