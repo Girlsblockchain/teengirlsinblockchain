@@ -29,8 +29,12 @@ const galleryFolders: GalleryFolder[] = [
   {
     name: "Congo",
     location: "Central Africa",
-    coverImage: "",
-    items: [],
+    coverImage: "/images/congo-1.jpg",
+    items: [
+      { type: "image", src: "/images/congo-1.jpg", alt: "TGIB Congo certificate presentation" },
+      { type: "image", src: "/images/congo-2.jpg", alt: "TGIB Congo certificate ceremony" },
+      { type: "image", src: "/images/congo-3.jpg", alt: "TGIB Congo workshop session" },
+    ],
   },
   {
     name: "Ghana",
