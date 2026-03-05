@@ -7,6 +7,7 @@ import chikezirimImage from "@/assets/chikezirim-ugwu.jpg";
 import dearieImage from "@/assets/dearie-eburu.jpg";
 import ameliaImage from "@/assets/amelia-james.jpg";
 import sharonImage from "@/assets/sharon-okorie.jpg";
+import tammyImage from "@/assets/tammy-francis.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
