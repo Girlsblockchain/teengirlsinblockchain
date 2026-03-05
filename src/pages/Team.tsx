@@ -66,6 +66,14 @@ const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/sharon-okorie-a19a8322b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
+    name: "Tammy Francis, Ph.D.",
+    role: "Advisor",
+    image: tammyImage,
+    linkedin: "http://www.linkedin.com/in/drtammyfrancis",
+    instagram: "http://www.instagram.com/drtammyfrancis",
+    x: "http://www.x.com/drtammyfrancis"
+  },
+  {
     name: "Favour Samson",
     role: "Project manager",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
