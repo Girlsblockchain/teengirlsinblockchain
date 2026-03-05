@@ -73,14 +73,6 @@ const teamMembers: TeamMember[] = [
     instagram: "http://www.instagram.com/drtammyfrancis",
     x: "http://www.x.com/drtammyfrancis"
   },
-  {
-    name: "Favour Samson",
-    role: "Project manager",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
-    linkedin: "https://linkedin.com",
-    instagram: "https://instagram.com",
-    x: "https://x.com"
-  },
 ];
 
 const Team = () => {

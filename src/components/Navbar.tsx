@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useState } from "react";
-import tgibLogo from "@/assets/tgib-logo.jpg";
+import tgibLogo from "@/assets/tgib-logo-new.png";
 
 const Navbar = () => {
   const location = useLocation();
