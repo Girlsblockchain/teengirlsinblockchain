@@ -7,6 +7,7 @@ import chikezirimImage from "@/assets/chikezirim-ugwu.jpg";
 import dearieImage from "@/assets/dearie-eburu.jpg";
 import ameliaImage from "@/assets/amelia-james.jpg";
 import sharonImage from "@/assets/sharon-okorie.jpg";
+import tammyImage from "@/assets/tammy-francis.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -63,6 +64,14 @@ const teamMembers: TeamMember[] = [
     role: "Akwa-Ibom State Lead",
     image: sharonImage,
     linkedin: "https://www.linkedin.com/in/sharon-okorie-a19a8322b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    name: "Tammy Francis, Ph.D.",
+    role: "Advisor",
+    image: tammyImage,
+    linkedin: "http://www.linkedin.com/in/drtammyfrancis",
+    instagram: "http://www.instagram.com/drtammyfrancis",
+    x: "http://www.x.com/drtammyfrancis"
   },
   {
     name: "Favour Samson",
