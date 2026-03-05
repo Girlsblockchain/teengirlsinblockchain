@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useState } from "react";
-import tgibLogo from "@/assets/tgib-logo.jpg";
+import tgibLogo from "@/assets/tgib-logo-new.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -46,7 +46,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src={tgibLogo} alt="Teen Girls In Blockchain" className="h-10 w-auto" />
+          <img src={tgibLogo} alt="Teen Girls In Blockchain" className="h-14 w-auto" />
         </Link>
 
         {/* Desktop Navigation Links */}
