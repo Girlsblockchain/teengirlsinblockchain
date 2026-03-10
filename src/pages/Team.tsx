@@ -61,7 +61,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Sharon Mmesomachi Okorie",
-    role: "Akwa-Ibom State Lead",
+    role: "Deputy Akwa-Ibom State Lead",
     image: sharonImage,
     linkedin: "https://www.linkedin.com/in/sharon-okorie-a19a8322b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
