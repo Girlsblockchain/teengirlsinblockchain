@@ -73,10 +73,17 @@ const galleryFolders: GalleryFolder[] = [
     ],
   },
   {
-    name: "Niger State",
+    name: "Zamfara State",
     location: "Nigeria",
-    coverImage: "",
-    items: [],
+    coverImage: "/images/zamfara-1.jpg",
+    items: [
+      { type: "image", src: "/images/zamfara-1.jpg", alt: "TGIB Zamfara school outreach" },
+      { type: "image", src: "/images/zamfara-2.jpg", alt: "TGIB Zamfara Rising Stars Academy event" },
+      { type: "image", src: "/images/zamfara-3.jpg", alt: "TGIB Zamfara prize giving" },
+      { type: "image", src: "/images/zamfara-4.jpg", alt: "TGIB Zamfara group photo" },
+      { type: "image", src: "/images/zamfara-5.jpg", alt: "TGIB Zamfara blockchain education" },
+      { type: "image", src: "/images/zamfara-6.jpg", alt: "TGIB Zamfara students with materials" },
+    ],
   },
 ];
 
