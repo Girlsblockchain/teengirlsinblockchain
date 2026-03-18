@@ -28,7 +28,7 @@ const galleryFolders: GalleryFolder[] = [
   },
   {
     name: "Congo",
-    location: "Central Africa",
+    location: "East Africa",
     coverImage: "/images/congo-1.jpg",
     items: [
       { type: "image", src: "/images/congo-1.jpg", alt: "TGIB Congo certificate presentation" },
@@ -83,6 +83,19 @@ const galleryFolders: GalleryFolder[] = [
       { type: "image", src: "/images/zamfara-4.jpg", alt: "TGIB Zamfara group photo" },
       { type: "image", src: "/images/zamfara-5.jpg", alt: "TGIB Zamfara blockchain education" },
       { type: "image", src: "/images/zamfara-6.jpg", alt: "TGIB Zamfara students with materials" },
+    ],
+  },
+  {
+    name: "Osun State",
+    location: "Nigeria",
+    coverImage: "/images/osun-1.jpg",
+    items: [
+      { type: "image", src: "/images/osun-1.jpg", alt: "TGIB Osun State community outreach" },
+      { type: "image", src: "/images/osun-2.jpg", alt: "TGIB Osun State blockchain teaching" },
+      { type: "image", src: "/images/osun-3.jpg", alt: "TGIB Osun State classroom session" },
+      { type: "image", src: "/images/osun-4.jpg", alt: "TGIB Osun State students learning" },
+      { type: "image", src: "/images/osun-5.jpg", alt: "TGIB Osun State girls with banners" },
+      { type: "image", src: "/images/osun-6.jpg", alt: "TGIB Osun State workshop" },
     ],
   },
 ];
