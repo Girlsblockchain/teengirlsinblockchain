@@ -39,8 +39,15 @@ const galleryFolders: GalleryFolder[] = [
   {
     name: "Ghana",
     location: "West Africa",
-    coverImage: "",
-    items: [],
+    coverImage: "/images/ghana-1.jpg",
+    items: [
+      { type: "image", src: "/images/ghana-1.jpg", alt: "TGIB Ghana school workshop group photo" },
+      { type: "image", src: "/images/ghana-2.jpg", alt: "TGIB Ghana Lisk Builders Community event" },
+      { type: "image", src: "/images/ghana-3.jpg", alt: "TGIB Ghana presentation session" },
+      { type: "image", src: "/images/ghana-4.jpg", alt: "TGIB Ghana youth workshop" },
+      { type: "image", src: "/images/ghana-5.jpg", alt: "TGIB Ghana school outreach" },
+      { type: "image", src: "/images/ghana-6.jpg", alt: "TGIB Ghana blockchain education session" },
+    ],
   },
   {
     name: "Kaduna State",
