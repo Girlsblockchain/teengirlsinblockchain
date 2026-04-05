@@ -8,6 +8,8 @@ import dearieImage from "@/assets/dearie-eburu.jpg";
 import ameliaImage from "@/assets/amelia-james.jpg";
 import sharonImage from "@/assets/sharon-okorie.jpg";
 import tammyImage from "@/assets/tammy-francis.jpg";
+import elijahImage from "@/assets/elijah-chinedu.jpg";
+import zeenatImage from "@/assets/zeenat-obansa.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -72,6 +74,18 @@ const teamMembers: TeamMember[] = [
     linkedin: "http://www.linkedin.com/in/drtammyfrancis",
     instagram: "http://www.instagram.com/drtammyfrancis",
     x: "http://www.x.com/drtammyfrancis"
+  },
+  {
+    name: "Elijah Chinedu",
+    role: "Design Mentor",
+    image: elijahImage,
+    linkedin: "https://www.linkedin.com/in/elijah-chii"
+  },
+  {
+    name: "Obansa Zeenat",
+    role: "Deputy Kogi State Lead",
+    image: zeenatImage,
+    instagram: "https://www.instagram.com/meetzeenat"
   },
 ];
 
