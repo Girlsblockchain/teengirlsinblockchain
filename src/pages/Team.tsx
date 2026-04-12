@@ -92,6 +92,7 @@ const teamMembers: TeamMember[] = [
     name: "Benita Chinonso Ihejirika",
     role: "Anambra State Lead",
     image: benitaImage,
+    instagram: "https://www.instagram.com/benitaihejirika?igsh=MWlyZndtemlrY3VwMA==",
   },
 ];
 
