@@ -1,6 +1,13 @@
 import { useState } from "react";
+import victoriaImage from "@/assets/victoria-abiodun.jpg";
 
 const testimonials = [
+  {
+    name: "Victoria Kehinde Abiodun",
+    role: "Blockchain Enthusiast",
+    image: victoriaImage,
+    quote: "As someone who has benefited directly from this vision, I see TGIB as a space where potential is nurtured and futures are built. If you are a young woman seeking growth, direction, and a strong entry into Web3, TGIB is where you belong."
+  },
   {
     name: "Albert Nicole",
     role: "Blockchain enthusiast",
