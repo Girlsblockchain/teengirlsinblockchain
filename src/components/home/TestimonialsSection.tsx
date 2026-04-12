@@ -7,24 +7,6 @@ const testimonials = [
     role: "Blockchain Enthusiast",
     image: victoriaImage,
     quote: "As someone who has benefited directly from this vision, I see TGIB as a space where potential is nurtured and futures are built. If you are a young woman seeking growth, direction, and a strong entry into Web3, TGIB is where you belong."
-  },
-  {
-    name: "Albert Nicole",
-    role: "Blockchain enthusiast",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
-    quote: "I have been a blockchain enthusiast for a while now, but I truly found my passion for technology after joining TGIB, a community of like-minded individuals. The community provided a platform for learning and growth, where i was able to engage in meaningful discussions, ask questions and gain valuable insights from experienced members."
-  },
-  {
-    name: "Sarah Johnson",
-    role: "Developer",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-    quote: "TGIB has been instrumental in my journey into blockchain development. The mentorship and resources available are unmatched."
-  },
-  {
-    name: "Maria Chen",
-    role: "Entrepreneur",
-    image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop",
-    quote: "Being part of this community has opened so many doors for me. The connections I've made here are invaluable."
   }
 ];
 
