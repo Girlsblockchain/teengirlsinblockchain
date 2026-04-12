@@ -31,7 +31,7 @@ const NewsletterSection = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
-                Subscribe to Our Newsletter !
+                Subscribe to Our Newsletter
               </h2>
             </div>
             <form onSubmit={handleSubmit} className="flex gap-2 w-full md:w-auto">
