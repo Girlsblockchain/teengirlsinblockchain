@@ -10,6 +10,7 @@ import sharonImage from "@/assets/sharon-okorie.jpg";
 import tammyImage from "@/assets/tammy-francis.jpg";
 import elijahImage from "@/assets/elijah-chinedu.jpg";
 import zeenatImage from "@/assets/zeenat-obansa.jpg";
+import benitaImage from "@/assets/benita-ihejirika.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -86,6 +87,11 @@ const teamMembers: TeamMember[] = [
     role: "Deputy Kogi State Lead",
     image: zeenatImage,
     instagram: "https://www.instagram.com/meetzeenat"
+  },
+  {
+    name: "Benita Chinonso Ihejirika",
+    role: "Anambra State Lead",
+    image: benitaImage,
   },
 ];
 
