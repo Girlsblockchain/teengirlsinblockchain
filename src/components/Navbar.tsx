@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Moon, Sun, Menu, X } from "lucide-react";
+import { Sparkles, Eclipse, Menu, X } from "lucide-react";
 import { useState } from "react";
 import tgibLogo from "@/assets/tgib-logo-new.png";
 
@@ -69,12 +69,14 @@ const Navbar = () => {
           {/* Dark Mode Toggle */}
           <button
             onClick={toggleTheme}
-            className="relative bg-muted/30 border border-primary-foreground/20 rounded-full p-0.5 flex items-center w-14 h-7 transition-colors"
+            className="relative w-9 h-9 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 flex items-center justify-center hover:bg-primary-foreground/20 transition-all duration-300 group"
             aria-label="Toggle dark mode"
           >
-            <Sun size={12} className={`absolute left-1.5 top-1/2 -translate-y-1/2 transition-opacity ${isDark ? "opacity-30" : "opacity-100"} text-primary-foreground`} />
-            <Moon size={12} className={`absolute right-1.5 top-1/2 -translate-y-1/2 transition-opacity ${isDark ? "opacity-100" : "opacity-30"} text-primary-foreground`} />
-            <div className={`w-5 h-5 rounded-full bg-primary-foreground shadow-md transition-transform duration-300 ${isDark ? "translate-x-7" : "translate-x-0"}`} />
+            {isDark ? (
+              <Sparkles size={18} className="text-primary-foreground transition-transform duration-300 group-hover:rotate-45 group-hover:scale-110" />
+            ) : (
+              <Eclipse size={18} className="text-primary-foreground transition-transform duration-300 group-hover:-rotate-45 group-hover:scale-110" />
+            )}
           </button>
 
           {/* Mobile Hamburger */}
