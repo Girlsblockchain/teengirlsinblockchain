@@ -11,6 +11,7 @@ import tammyImage from "@/assets/tammy-francis.jpg";
 import elijahImage from "@/assets/elijah-chinedu.jpg";
 import zeenatImage from "@/assets/zeenat-obansa.jpg";
 import benitaImage from "@/assets/benita-ihejirika.jpg";
+import jemyImage from "@/assets/jemy-iragi.jpg";
 
 const XIcon = ({ size = 20 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -93,6 +94,12 @@ const teamMembers: TeamMember[] = [
     role: "Anambra State Lead",
     image: benitaImage,
     instagram: "https://www.instagram.com/benitaihejirika?igsh=MWlyZndtemlrY3VwMA==",
+  },
+  {
+    name: "IRAGI Djemimah",
+    role: "TGIB Ambassador, DR Congo",
+    image: jemyImage,
+    x: "https://x.com/JemyIragi"
   },
 ];
 
