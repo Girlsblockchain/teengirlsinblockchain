@@ -66,14 +66,15 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* Theme Toggle */}
+          {/* Dark Mode Toggle */}
           <button
             onClick={toggleTheme}
-            className="bg-foreground/20 rounded-full p-1 flex items-center w-14 h-7"
+            className="relative bg-muted/30 border border-primary-foreground/20 rounded-full p-0.5 flex items-center w-14 h-7 transition-colors"
+            aria-label="Toggle dark mode"
           >
-            <div className={`w-5 h-5 rounded-full bg-primary-foreground transition-transform ${isDark ? "translate-x-7" : "translate-x-0"}`}>
-              {isDark ? <Moon size={14} className="m-0.5 text-primary" /> : <Sun size={14} className="m-0.5 text-primary" />}
-            </div>
+            <Sun size={12} className={`absolute left-1.5 top-1/2 -translate-y-1/2 transition-opacity ${isDark ? "opacity-30" : "opacity-100"} text-primary-foreground`} />
+            <Moon size={12} className={`absolute right-1.5 top-1/2 -translate-y-1/2 transition-opacity ${isDark ? "opacity-100" : "opacity-30"} text-primary-foreground`} />
+            <div className={`w-5 h-5 rounded-full bg-primary-foreground shadow-md transition-transform duration-300 ${isDark ? "translate-x-7" : "translate-x-0"}`} />
           </button>
 
           {/* Mobile Hamburger */}

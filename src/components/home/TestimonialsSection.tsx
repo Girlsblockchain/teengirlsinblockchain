@@ -21,25 +21,15 @@ const TestimonialsSection = () => {
           What our students say About Us
         </h2>
 
-        {/* Avatars */}
-        <div className="flex justify-center items-center gap-4 mb-8">
-          {testimonials.map((testimonial, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveIndex(index)}
-              className={`transition-all duration-300 ${
-                index === activeIndex 
-                  ? "w-20 h-20 ring-4 ring-primary" 
-                  : "w-14 h-14 opacity-50 hover:opacity-75"
-              } rounded-full overflow-hidden`}
-            >
-              <img 
-                src={testimonial.image} 
-                alt={testimonial.name}
-                className="w-full h-full object-cover"
-              />
-            </button>
-          ))}
+        {/* Avatar */}
+        <div className="flex justify-center items-center mb-8">
+          <div className="w-24 h-24 rounded-full overflow-hidden ring-4 ring-primary shadow-lg">
+            <img 
+              src={testimonials[activeIndex].image} 
+              alt={testimonials[activeIndex].name}
+              className="w-full h-full object-cover object-top"
+            />
+          </div>
         </div>
 
         {/* Active testimonial info */}
